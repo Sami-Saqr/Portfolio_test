@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-/* nav {
-  background-color: #1f1f1f;
-  color: white;
-  padding: 15px 30px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-} */
 nav {
   background-color: #1f1f1f;
   color: white;
@@ -63,9 +53,7 @@ body {
 
 #aboutMe {
   box-shadow: 0 0 15px #ff9900;
-  /* لون غامق */
   color: #1f1f1f;
-  /* لون الكلام */
   padding: 40px 20px;
   border-radius: 10px;
   margin: 40px auto;
@@ -101,7 +89,6 @@ body {
   margin-top: 30px;
 }
 
-/* أنيميشن خفيف */
 @keyframes fadeIn {
   from {
     opacity: 0;
