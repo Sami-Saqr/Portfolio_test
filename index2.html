@@ -6,191 +6,195 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Sami's Portfolio</title>
+
 </head>
 
 <body>
 
   <!-- Navigation Bar -->
   <nav>
-    <a href="#aboutMe">About</a> |
-    <a href="#skills">Skills</a> |
-    <a href="#experiences">Experience</a> |
-    <a href="#projects">Projects</a> |
-    <a href="#contact">Contact</a>
+    <div class="container">
+      <h1>Portfolio</h1>
+      <div class="nav-links">
+        <a href="#aboutMe">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experiences">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
   </nav>
 
+
   <!-- About My -->
-  <hr>
-  <div id="aboutMe">
-    <h1 style="text-align: center; text-decoration: underline;">About Me</h1>
+  <section id="aboutMe" class="about-section">
+    <h1>About Me</h1>
     <p>
-      Hello! My name is Sami Abdelhaleem. I am a Flutter developer with, a Bachelor's degree in Computer Science and
+      Hello! My name is Sami Abdelhaleem. I am a Flutter developer with a Bachelor's degree in Computer Science and
       Artificial Intelligence.
       I'm passionate about building clean, scalable, and responsive mobile apps using Dart and Flutter.
     </p>
-    <blockquote>"learning never exhausta the mind."-- Leonardo da Vinci</blockquote>
-  </div>
-
+    <blockquote>"Learning never exhausts the mind." — Leonardo da Vinci</blockquote>
+  </section>
   <hr>
 
-  <!-- Skills -->
-  <div id="skills">
-    <h1 style="text-align: center; text-decoration: underline;">Technical Skills</h1>
+
+<!-- Skills -->
+<section id="skills" class="skills-section">
+  <h1>Technical Skills</h1>
+  <ul class="skills-list">
+    <li><strong>HTML</strong> — Intermediate</li>
+    <li><strong>CSS</strong> — Beginner</li>
+    <li><strong>JavaScript</strong> — Beginner</li>
+    <li><strong>Dart & Flutter</strong></li>
+    <li><strong>State Management</strong> (GetX, BloC, Provider)</li>
+    <li><strong>Git & GitHub</strong></li>
+    <li><strong>Problem Solving</strong></li>
+    <li><strong>Teamwork</strong></li>
+  </ul>
+</section>
+
+
+  <hr>
+<!-- Experience -->
+<section id="experiences" class="experience-section">
+  <h1>Experience</h1>
+
+  <!-- Experience One -->
+  <div class="experience-item">
+    <h2>
+      <i class="fa-solid fa-graduation-cap"></i> Mobile Developer Intern – MMD (2023)
+    </h2>
     <ul>
-      <li>HTML - Intermediate</li>
-      <li>CSS - Beginner</li>
-      <li>JavaScript = Beginner</li>
-      <li>Dart & Flutter</li>
-      <li>State Management (GetX, BloC, Provider)</li>
-      <li>Git & GitHub</li>
-      <li>Problem Solving</li>
-      <li>Teamwork</li>
+      <li>Built real-world Flutter applications in a professional internship environment.</li>
+      <li>Worked in a team led by Beshoy Melak to build two major apps:
+        <ul>
+          <li><strong>Splitwise Clone:</strong> Group expense tracker with intuitive user flow and data management.</li>
+          <li><strong>Du Predict:</strong> Stock price prediction game integrating APIs and Firebase for authentication
+            and real-time logic.</li>
+        </ul>
+      </li>
+      <li>Wrote clean code following industry standards and participated in code reviews and debugging sessions.</li>
     </ul>
   </div>
 
-  <hr>
-
-  <!-- Experience -->
-  <h1 style="text-align: center; text-decoration: underline;">Experience</h1>
-  <section id="experiences">
-
-    <!-- Experience one -->
+  <!-- Experience Two -->
+  <div class="experience-item">
     <h2>
-      <i class="fa-solid fa-graduation-cap" style="font-size: 22px;"></i>Mobile Developer Intern - MMD (2023)
+      <i class="fa-solid fa-graduation-cap"></i> Founder – Clinic Management System (2024–present)
     </h2>
-    <div>
-      <ul>
-        <li>Built real-world Flutter applications in a professional internship environment.</li>
-        <li>Worked in a team led by Beshoy Melak to build two major apps:
-          <ul>
-            <li><strong>Splitwise Clone: </strong>Group expense tracker with intuituive user flow and data management.
-            </li>
-            <li><strong>Du Predict: </strong>Stock price prediction game integrating APIs and Firebase for
-              authentication and real-time logic.</li>
-          </ul>
-        </li>
-        <li>Wrote clean code following industry standards and participated in code reviews and debugging sessions.
-      </ul>
-    </div>
+    <ul>
+      <li>Developing a Flutter-based system to help small clinics manage appointments, records, and finances.</li>
+      <li>Targeting early-career doctors across Egypt through digital marketing and direct sales.</li>
+      <li>Handling UI/UX, backend integration, and deployment using Laravel and Hostinger.</li>
+    </ul>
+  </div>
 
-    <!-- Experience two -->
+  <!-- Experience Three -->
+  <div class="experience-item">
     <h2>
-      <i class="fa-solid fa-graduation-cap" style="font-size: 22px;"></i>Founder - Clinic Management System
-      (2024-present)
+      <i class="fa-solid fa-graduation-cap"></i> Freelance & AR Explorer (2025)
     </h2>
-    <div>
-      <ul>
-        <li>Developing a Flutter-based system to help small clinics manage appointments, records, and finances.</li>
-        <li>Targeting early-career doctors across Egypt through digital marketing and direct sales.
-        <li>Handling UI/UX, backend integration, and deployment using Laravel and Hostinger.
-      </ul>
-    </div>
-
-
-    <!-- Experience Three -->
-    <h2>
-      <i class="fa-solid fa-graduation-cap" style="font-size: 22px;"></i>Freelance & AR Explorer (2025)
-    </h2>
-    <div>
-      <ul>
-        <li>Building a portfolio for Upwork freelancing in mobile development.</li>
-        <li>Experimenting with Flutter + AR to create innovative mobile experiences.
-      </ul>
-    </div>
-    </div>
+    <ul>
+      <li>Building a portfolio for Upwork freelancing in mobile development.</li>
+      <li>Experimenting with Flutter + AR to create innovative mobile experiences.</li>
+    </ul>
+  </div>
+</section>
 
     <hr>
+<!-- Projects -->
+<section id="projects" class="projects-section">
+  <h1>My Projects</h1>
 
-    <!--Projects-->
-    <div id="projects">
-      <h1 style="text-align: center; text-decoration: underline;">My Projects</h1>
+  <ol class="projects-list">
+    <li>
+      <h2>Splitwise</h2>
+      <p>A group expense tracker app developed during my internship at MMD, allowing users to split and track expenses
+        among friends.</p>
+    </li>
 
-      <!-- One -->
-      <ol>
-        <li>
-          <h2>Splitwise</h2>
-          <ul>
-            <li>
-              <p>A group expense tracker app developed during my internship at MMD, allowing users to split and track
-                expenses among
-                friends.</p>
-            </li>
-          </ul>
-        </li>
+    <li>
+      <h2>Du Predict</h2>
+      <p>A stock price prediction game where users guess market trends. Built using Flutter and integrated with APIs and
+        Firebase for real-time prediction handling.</p>
+    </li>
 
-        <!-- Two -->
-        <li>
-          <h2>Du Predict</h2>
-          <ul>
-            <li>
-              <p>A stock price prediction game where users guess market trends. Built using Flutter and integrated with
-                APIs and Firebase
-                for real-time prediction handling.</p>
-            </li>
-          </ul>
-        </li>
+    <li>
+      <h2>Clinic Management System</h2>
+      <p>A commercial Flutter-based system for doctors and clinics. Includes appointments, patient records, and
+        multi-role access, currently being marketed.</p>
+    </li>
 
-        <!-- Three -->
-        <li>
-          <h2>Clinic Management System</h2>
-          <ul>
-            <li>
-              <p>A commercial Flutter-based system for doctors and clinics. Includes appointments, patient records, and
-                multi-role access
-                currently being marketed.</p>
-            </li>
-          </ul>
-        </li>
-
-        <!-- Four -->
-        <li>
-          <h2>AR Showroom (in progress)</h2>
-          <ul>
-            <li>
-              <p>Currently exploring AR technologies and developing a simple Flutter-based AR app to enhance product
-                visualization.</p>
-            </li>
-          </ul>
-        </li>
-      </ol>
-    </div>
+    <li>
+      <h2>AR Showroom (in progress)</h2>
+      <p>Currently exploring AR technologies and developing a simple Flutter-based AR app to enhance product
+        visualization.</p>
+    </li>
+  </ol>
+</section>
 
     <hr>
+<!-- Contact Me -->
+<section id="contact" class="contact-section">
+  <h1>Contact Me</h1>
 
-    <!-- Contact My -->
-    <div class="contact" id="contact">
-      <h1 style="text-align: center; text-decoration: underline;">Contact Me</h1>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name here...">
 
-      <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Your Name Here ..."><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Type a valid email...">
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Type a valid email ..."><br><br>
+    <label for="date">Meeting Date:</label>
+    <input type="month" id="date" name="meeting-date">
 
-        <label for="name">Metting Date:</label><br>
-        <input type="month" id="subject" name="subject"><br><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" placeholder="Send a feedback..."></textarea>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="30" placeholder="Send a feedback..."></textarea><br><br>
+    <input type="submit" value="Send Message">
+  </form>
+</section>
 
-        <input type="submit" value="send message" style="background-color: rgb(224, 34, 0);
-        border-radius: 5px;
-        border: none;
-        color: rgb(255, 255, 255);
-        width: 100px;
-        height: 40px;
-        cursor: pointer;
-        ">
-      </form>
-    </div>
+<footer class="footer">
+  <p>Contact Us (2025 - 2026)</p>
+  <p>&copy; 2026 All rights reserved.</p>
+</footer>
 
-    <hr>
-    
-    <footer>
-      <p>Contact Us (2025 - 2026)</p>
-      <p>Copyright &copy; 2026 All rights reserved.</p>
-    </footer>
+<button id="scrollTopBtn" title="Go to top">↑</button>
+
+
+    <script>
+      let lastScroll = 0;
+      const nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll > lastScroll && currentScroll > 100) {
+          nav.classList.add('hide');
+        } else {
+          nav.classList.remove('hide');
+        }
+
+        lastScroll = currentScroll;
+      });
+
+      const btn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = () => {
+          if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            btn.style.display = "block";
+          } else {
+            btn.style.display = "none";
+          }
+        };
+
+        btn.onclick = () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+
 
 </body>
 
